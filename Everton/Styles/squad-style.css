@@ -3,11 +3,24 @@
     font-family: Helvetica;
 }
 
+.player-number {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
 .player-icon {
     border: 3px solid black;
     width: 400px;
-    margin: 20px auto;
+    margin: 10px 10px;
     display: inline-block;
+    position: relative;
+    background-color: #06042b;
+    padding: 5px;
+}
+
+.player-icon * {
+    color: white;
 }
 
 .nationality-flag {
