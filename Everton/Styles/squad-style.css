@@ -30,3 +30,15 @@
 .player-nationality img, .player-nationality h4 {
     display: inline;
 }
+
+.player-headshot {
+    z-index: 1;
+    position: relative;
+    top: 10px;
+}
+
+.player-name {
+    box-shadow: 0 -30px 20px #06042b;
+    z-index: 2;
+    position: relative;
+}
