@@ -35,6 +35,7 @@ footer {
 
 .player-icon * {
     color: white;
+    cursor: pointer;
 }
 
 .nationality-flag {
@@ -49,13 +50,21 @@ footer {
     z-index: 1;
     position: relative;
     top: 10px;
-    transition: 0.5s;
     margin-bottom: 5px;
+    transition: 0.5s;
+    transform: scale(1);
 }
 
-.player-headshot:hover {
+.player-icon:hover .player-headshot {
     transform: scale(1.25);
-    cursor:pointer;
+}
+
+.player-number {
+    transition: 0.5s;
+}
+
+.player-icon:hover .player-number {
+    color: #dba21d;
 }
 
 .player-name {
