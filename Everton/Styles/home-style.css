@@ -14,10 +14,24 @@ ul li a {
     position: relative;
     padding: 20px 50px;
     margin: 20px;
-    border: 3px solid gray;
+    border: 3px solid #53535c;
     border-radius: 10px;
     background-color: #1d1db5;
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+ul li a:hover {
+    border: 3px solid #1d1db5;
+    background-color: white;
+    color: #53535c;
+    transition: 0.3s;
+}
+
+ul li a:active  {
+    border: 3px solid #1d1db5;
+    background-color: #53535c;
+    color: white;
+    transition: 0.1s;
 }
